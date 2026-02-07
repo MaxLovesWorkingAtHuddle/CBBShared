@@ -1,3 +1,6 @@
+# For trading College Basketball
+Applies bias automatically.
+
 # Basic Instructions:
 * Download python 
 * Download VSCode
