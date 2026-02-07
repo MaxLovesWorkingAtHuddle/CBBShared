@@ -1,0 +1,66 @@
+() => {
+    const rows = document.querySelectorAll('.ag-center-cols-container [role="row"][row-index]');
+    const results = {};
+    
+    rows.forEach(row => {
+        const rowId = row.getAttribute('row-id');
+        if (!rowId) return;
+        
+        const cells = row.querySelectorAll('[role="gridcell"][col-id]');
+        const rowData = {};
+        
+        cells.forEach(cell => {
+            const colId = cell.getAttribute('col-id');
+            if (!colId) return;
+
+            // Skip info columns
+            if (['startTime', 'rotationNumber', 'teamName'].includes(colId)) return;
+            
+            const oddsBoxes = cell.querySelectorAll('div.cursor-pointer');
+            const columnData = [];
+            
+            let source = colId;
+            if (colId === 'bestPrice') {
+                const img = cell.querySelector('img.remix-image');
+                source = img?.getAttribute('alt') || colId;
+            }
+
+            oddsBoxes.forEach((box, index) => {
+                const textContent = box.innerText || "";
+                let probability = "";
+
+                if (textContent.includes('%')) {
+                    probability = textContent.replace('%', '').trim();
+                } else {
+                    probability = textContent.trim();
+                }
+                
+                let marketType = (index === 0) ? "Moneyline_1" : "Moneyline_2";
+
+                if (probability) {
+                    columnData.push({
+                        bookmaker_source: source,
+                        market_type: marketType,
+                        spread: "", 
+                        probability: probability,
+                        outcome_index: index
+                    });
+                }
+            });
+            
+            if (columnData.length > 0) {
+                rowData[colId] = columnData;
+            }
+        });
+        
+        if (Object.keys(rowData).length > 0) {
+            results[rowId] = rowData;
+        }
+    });
+    
+    return results;
+}
+
+This returns a list and now, since the styling of the site is different, everything is different. You will need to use fetch("https://app.opticodds.com/api/backend/screen/data?sport=basketball&league=ncaab&market=moneyline&tz=America%2FLos_Angeles", { headers: { "accept": "application/json" } })
+  .then(res => res.json())
+  .then(data => console.log(data)); which has a response moneylineresponse to make this same object.

@@ -1,0 +1,4 @@
+*auth*
+*.zip*
+__pycache__/
+*.pyc
