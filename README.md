@@ -17,13 +17,15 @@ If that doesn't work, ask a friend.
 * Run 0main.py, instantly, press ctrl+c.
 * Use the command that vs-code ran by ("  ctrl + `  " then press the up arrow). This is your "*base*" command. 
 
-* Run your base command with the flags -g -c which stand for get and check respectively. These will get and check games and ensure that your HOS_SCREEN_URL  games and the optic odds equivalents are all there. 
+* Run your base command with the flags -g -c which stand for get and check respectively. These will get and check games and ensure that your HOS_SCREEN_URL  games and the optic odds equivalents are all there. When given three options, one of them to Quit, press (q + Enter) to do so.  
 
 * Now, ensure you have all of your games in matched_games.json in the utils folder. If you do not see your game, find it in 1parsedOO.json and 1parsedHOS.json. Copy and paste them into matched_games.json. The formats are the same, so this should be self-explanitory. Please delete redundant or misleading games. All IDs should be unique. Also, feel free to delete any games with the optic ID not matching today's date. Games are denoted by {} and are comma seperated.
 
 * Hopefully, when you ran the base program with -c -g, you were asked to login to optic odds and HOS. If that is the case, you can now run with the flag -n which means no log in. 
 
 * Now, if everything went according to plan, run the base program with the flag -a -n which is -a auto and -n no login respectively. 
+
+* When asked, press (m + Enter) to monitor the odds. 
 
 * New : Further, add the -i flag to send everything in memory. The default is that you write to local storage which is slower and can cause bad memory blocks. Doing everything in memory is recommended 
 
