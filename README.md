@@ -37,9 +37,9 @@ If that doesn't work, ask a friend.
 USC spread <hr>
 and the program won't send the USC Spread line. It will also display this message in the terminal. 
 
-* As well, I've capped the bias or the slider value at +-4. If you see that the optimal bias is more than 4, slide at your will, but only more in the direction of the 4.
+* As well, I've capped the bias or the slider value at +-5. If you see that the optimal bias is more than 5, slide at your will, but only more in the direction of the 5.
 
-As a side note, if you're programatically inclined, 0.04 is the value of 4. Search the codebase for this and change it as you wish. 
+As a side note, if you're programatically inclined, 0.05 is the value of 5. Search the codebase for this and change it as you wish. 
 
 ## Warning:
 Do not share the `credentials/` directory containing HOSauth.json and OOauth.json files. These are your credentials. If you'd like, delete them after running the program. Note that if you delete them, you'll have to run without the -n flag to save your credentials again. 
