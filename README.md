@@ -2,7 +2,7 @@
 Applies bias automatically.
 
 # Basic Instructions:
-* Download python 
+* Download python, add python to your path. Add pip to your path. 
 * Download VSCode
 * Install the python extension for VSCode
 * Run the following command in your terminal in the same folder as this. 
