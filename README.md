@@ -47,26 +47,33 @@ As a side note, if you're programatically inclined, 0.05 is the value of 5. Sear
 ## Warning:
 Do not share the `credentials/` directory containing HOSauth.json and OOauth.json files. These are your credentials. If you'd like, delete them after running the program. Note that if you delete them, you'll have to run without the -n flag to save your credentials again. 
 
-## PyInstaller in beta
-[link](https://medium.com/@animeshsingh161/how-to-convert-a-python-playwright-script-into-an-executable-app-playwright-with-python-b61d8ff0ca64)
+# Docs:
+utils/Parsejss.py gives all the javascript used to get the data. 
+utils/(all things with parsed.json) are used for storing the data from the apis. utilsIM does this in memory. 
+utils(IM)/sendbias.py are used for sending the "bias" or slider values. 
+utils(IM)/matched_games.json is a matcher from optic to HOS and vise versa.  
+utils(IM)/final_stretch3qpartial is a bunch of data cleaning
+utils(IM)/calcbias2parital calculates the "bias" or slider values. 
 
+
+<!-- ## PyInstaller in beta -->
+<!--
+[link](https://medium.com/@animeshsingh161/how-to-convert-a-python-playwright-script-into-an-executable-app-playwright-with-python-b61d8ff0ca64)
 $env:Path += ";C:\Users\mkane\Downloads\pypy3.11\pypy3.11-v7.3.20-win64" after you install pypy. 
 % pypy -m pip install -r "requirements.txt"
-
 Create the environment: pypy -m venv myenv
-
 Activate it: .\myenv\Scripts\activate
-
 % Install your stuff: pip install [package_name]
-
 % Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 % Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
 powershell -ExecutionPolicy Bypass -File .\myenv\Scripts\Activate.ps1
-
 .\myenv\Scripts\activate
+-->
 
-## Making the executable: Not for regular use
-python -m venv myvenv
+
+
+<!-- ## Making the executable: Not for regular use -->
+<!-- python -m venv myvenv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  
 .\myvenv\Scripts\activate
 Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
@@ -77,5 +84,5 @@ $env:PLAYWRIGHT_BROWSERS_PATH="0"
 playwright install chromium --with-deps
 or
 set PLAYWRIGHT_BROWSERS_PATH=0 && playwright install chromium
-
 auto-py-to-exe
+-->
