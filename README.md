@@ -48,11 +48,17 @@ As a side note, if you're programatically inclined, 0.05 is the value of 5. Sear
 Do not share the `credentials/` directory containing HOSauth.json and OOauth.json files. These are your credentials. If you'd like, delete them after running the program. Note that if you delete them, you'll have to run without the -n flag to save your credentials again. 
 
 # Docs:
+
 utils/Parsejss.py gives all the javascript used to get the data. 
+
 utils/(all things with parsed.json) are used for storing the data from the apis. utilsIM does this in memory. 
+
 utils(IM)/sendbias.py are used for sending the "bias" or slider values. 
+
 utils(IM)/matched_games.json is a matcher from optic to HOS and vise versa.  
+
 utils(IM)/final_stretch3qpartial is a bunch of data cleaning
+
 utils(IM)/calcbias2parital calculates the "bias" or slider values. 
 
 
