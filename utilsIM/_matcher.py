@@ -30,9 +30,11 @@ BASE_DIR = os.path.dirname(UTILS_DIR)
 # --- Configuration ---
 OO_AUTH_FILE = os.path.join(BASE_DIR, "credentials", "OOauth.json")
 HOS_AUTH_FILE = os.path.join(BASE_DIR, "credentials", "HOSauth.json")
-OO_PARSE_FILE = os.path.join(BASE_DIR, "utilsIM", "1parsedOO.json")
-HOS_PARSE_FILE = os.path.join(BASE_DIR, "utilsIM", "1parsedHOS.json")
-MATCHED_GAMES = os.path.join(BASE_DIR, "utilsIM", "matched_games.json")
+OO_PARSE_FILE = os.path.join(BASE_DIR, "utils", "1parsedOO.json")
+HOS_PARSE_FILE = os.path.join(BASE_DIR, "utils", "1parsedHOS.json")
+OO_PARSE_FILE_IM = os.path.join(BASE_DIR, "utilsIM", "1parsedOO.json")
+HOS_PARSE_FILE_IM = os.path.join(BASE_DIR, "utilsIM", "1parsedHOS.json")
+MATCHED_GAMES = os.path.join(BASE_DIR, "utils", "matched_games.json")
 # URLs
 #  Old, depreciated is the first url
 # OO_TARGET_URL = "https://app.opticodds.com/api/backend/screen/fixture-data?sport=basketball&market=moneyline&league=ncaab&_data=routes%2Fapi.backend.%24"
@@ -274,6 +276,8 @@ async def fetch_oo_games():
             # Save the JSON in the requested specific format
             with open(OO_PARSE_FILE, "w") as f:
                 json.dump(json_output, f, indent=2)
+            with open(OO_PARSE_FILE_IM,"w") as f:
+                json.dump(json_output, f, indent=2)
 
             # Return the standard list to the application flow
             return parsed_games
@@ -330,6 +334,8 @@ async def fetch_hos_games():
             await page.goto(url)
             await page.wait_for_timeout(3000) # Wait for network
         with open(HOS_PARSE_FILE, "w") as f:
+                f.write(json.dumps(temp_games, indent = 2))
+        with open(HOS_PARSE_FILE_IM, "w") as f:
                 f.write(json.dumps(temp_games, indent = 2))
         await browser.close()
     # Deduplicate based on ID
