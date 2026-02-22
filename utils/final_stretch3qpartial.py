@@ -168,11 +168,15 @@ def runner():
                     # and keep other bookmakers as is (usually Title Case e.g. "DraftKings")
                     
                     raw_oo_books = events[game_id]
-                    for book, odds_list in raw_oo_books.items():
-                        key = book
-                        if book == 'bestPrice': key = 'best_price'
-                        if book == 'averagePrice': key = 'avg_price'
-                        market_data['optic_odds'][key] = odds_list
+                    if isinstance(raw_oo_books, dict):
+                        for book, odds_list in raw_oo_books.items():
+                            key = book
+                            if book == 'bestPrice': key = 'best_price'
+                            if book == 'averagePrice': key = 'avg_price'
+                            market_data['optic_odds'][key] = odds_list
+                    else:
+                        # Optional: Log the error or handle the string case
+                        print(f"Warning: Expected dict for game_id {game_id}, but got {type(raw_oo_books)}")
 
             # HOS Data
             # if hos_event_data:
