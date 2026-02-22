@@ -61,6 +61,8 @@ utils(IM)/final_stretch3qpartial is a bunch of data cleaning
 
 utils(IM)/calcbias2parital calculates the "bias" or slider values. 
 
+# Todo
+Add some sanity check logic. Something like 3 mins have passed with no points. Make an alert or something. 
 
 <!-- ## PyInstaller in beta -->
 <!--
