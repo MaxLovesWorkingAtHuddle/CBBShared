@@ -1,434 +1,530 @@
 [
   {
-    "oo_fixture_id": "202603040CA2CD0E",
-    "oo_game_id": "35011-13995-2026-03-03",
-    "oo_home": "Louisville",
+    "oo_fixture_id": "202603071FFDC839",
+    "oo_game_id": "21650-35775-2026-03-07",
+    "oo_home": "Utah State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Syracuse",
+    "oo_away": "New Mexico",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603040CF3A522",
-    "oo_game_id": "16361-14898-2026-03-03",
-    "oo_home": "Air Force",
+    "oo_fixture_id": "202603072EDF4A76",
+    "oo_game_id": "16988-16537-2026-03-07",
+    "oo_home": "New Mexico State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Grand Canyon",
+    "oo_away": "Kennesaw State",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603041393715D",
-    "oo_game_id": "87393-17774-2026-03-03",
-    "oo_home": "Fresno State",
+    "oo_fixture_id": "20260307637B6D1A",
+    "oo_game_id": "72164-12197-2026-03-07",
+    "oo_home": "Purdue",
     "oo_home_abbr": "UNK",
-    "oo_away": "San Jose State",
+    "oo_away": "Wisconsin",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "2026030420DECA16",
-    "oo_game_id": "42337-32876-2026-03-03",
-    "oo_home": "Virginia Tech",
+    "oo_fixture_id": "2026030766F29DF5",
+    "oo_game_id": "28802-44282-2026-03-07",
+    "oo_home": "Colorado State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Boston College",
+    "oo_away": "Boise State",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603044A494B1B",
-    "oo_game_id": "37718-26991-2026-03-03",
-    "oo_home": "Utah",
+    "oo_fixture_id": "202603079542EDB9",
+    "oo_game_id": "60418-54739-2026-03-07",
+    "oo_home": "Kentucky",
     "oo_home_abbr": "UNK",
-    "oo_away": "Colorado",
+    "oo_away": "Florida",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "2026030481B50BF5",
-    "oo_game_id": "18257-93768-2026-03-03",
-    "oo_home": "Ole Miss",
+    "oo_fixture_id": "20260307BD431416",
+    "oo_game_id": "11878-12313-2026-03-07",
+    "oo_home": "Wichita State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Vanderbilt",
+    "oo_away": "Florida Atlantic",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603048D215108",
-    "oo_game_id": "13676-42793-2026-03-03",
-    "oo_home": "Cincinnati",
+    "oo_fixture_id": "20260307D3576354",
+    "oo_game_id": "17252-23019-2026-03-07",
+    "oo_home": "George Mason",
     "oo_home_abbr": "UNK",
-    "oo_away": "BYU",
+    "oo_away": "Saint Louis",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603049FA8B550",
-    "oo_game_id": "28802-17411-2026-03-03",
-    "oo_home": "Boise State",
+    "oo_fixture_id": "20260307FAA51546",
+    "oo_game_id": "14131-39863-2026-03-07",
+    "oo_home": "NJIT",
     "oo_home_abbr": "UNK",
-    "oo_away": "San Diego State",
+    "oo_away": "Maine",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260304FD79E9FB",
-    "oo_game_id": "21406-24631-2026-03-03",
-    "oo_home": "Arizona State",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Kansas",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "202603046EC85916",
-    "oo_game_id": "19885-12081-2026-03-03",
-    "oo_home": "Alcorn State",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Mississippi Valley State",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "202603049B2250D4",
-    "oo_game_id": "12939-20528-2026-03-03",
-    "oo_home": "Alabama A&M",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Grambling",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030413951409",
-    "oo_game_id": "19948-27171-2026-03-03",
-    "oo_home": "Auburn",
-    "oo_home_abbr": "UNK",
-    "oo_away": "LSU",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260304A12D95AA",
-    "oo_game_id": "29382-29071-2026-03-03",
-    "oo_home": "Wyoming",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Nevada",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030401A2FDAF",
-    "oo_game_id": "42773-35775-2026-03-03",
-    "oo_home": "UNLV",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Utah State",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260304737EAFD7",
-    "oo_game_id": "10896-19792-2026-03-03",
-    "oo_home": "UCLA",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Nebraska",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260304FB44098B",
-    "oo_game_id": "29352-78349-2026-03-04",
-    "oo_home": "Bellarmine",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Jacksonville",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260304D4EECC48",
-    "oo_game_id": "35526-23248-2026-03-04",
-    "oo_home": "Florida Gulf Coast",
-    "oo_home_abbr": "UNK",
-    "oo_away": "North Alabama",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260304250D6723",
-    "oo_game_id": "69512-40811-2026-03-04",
-    "oo_home": "Eastern Kentucky",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Stetson",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030472D9745B",
-    "oo_game_id": "22725-20773-2026-03-04",
-    "oo_home": "Butler",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Creighton",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030404FA990E",
-    "oo_game_id": "26124-15079-2026-03-04",
-    "oo_home": "Indiana",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Minnesota",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260304F23EF67F",
-    "oo_game_id": "98296-35944-2026-03-04",
-    "oo_home": "La Salle",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Fordham",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030500300249",
-    "oo_game_id": "20055-20873-2026-03-04",
-    "oo_home": "SIU Edwardsville",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Eastern Illinois",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030507122456",
-    "oo_game_id": "58858-35767-2026-03-04",
-    "oo_home": "Mercyhurst",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Fairleigh Dickinson",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "202603050BE0C825",
-    "oo_game_id": "33531-39434-2026-03-04",
-    "oo_home": "Wright State",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Cleveland State",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030513DF68FF",
-    "oo_game_id": "17920-22202-2026-03-04",
-    "oo_home": "Arkansas",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Texas",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030524186B28",
-    "oo_game_id": "37426-12271-2026-03-04",
-    "oo_home": "Charlotte",
-    "oo_home_abbr": "UNK",
-    "oo_away": "UAB",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260305285CF482",
-    "oo_game_id": "36059-16577-2026-03-04",
-    "oo_home": "SMU",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Miami Florida",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030533452E37",
-    "oo_game_id": "17243-34365-2026-03-04",
-    "oo_home": "Oakland",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Northern Kentucky",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260305354AAC30",
-    "oo_game_id": "22216-26072-2026-03-04",
-    "oo_home": "Central Connecticut",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Wagner",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030553FB5B96",
-    "oo_game_id": "17036-59677-2026-03-04",
-    "oo_home": "Robert Morris",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Youngstown State",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030558C1D6B9",
-    "oo_game_id": "36652-21229-2026-03-04",
-    "oo_home": "Providence",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Marquette",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "2026030592706BF2",
-    "oo_game_id": "17987-17774-2026-03-04",
-    "oo_home": "Detroit Mercy",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Milwaukee",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "202603059278F294",
-    "oo_game_id": "89995-51737-2026-03-04",
-    "oo_home": "Le Moyne",
-    "oo_home_abbr": "UNK",
-    "oo_away": "Stonehill",
-    "oo_away_abbr": "UNK"
-  },
-  {
-    "oo_fixture_id": "20260305954C83D9",
-    "oo_game_id": "23917-24697-2026-03-04",
-    "oo_home": "Georgia Tech",
+    "oo_fixture_id": "20260307FFB8419F",
+    "oo_game_id": "23917-24719-2026-03-07",
+    "oo_home": "Wake Forest",
     "oo_home_abbr": "UNK",
     "oo_away": "California",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305998974F0",
-    "oo_game_id": "27830-17236-2026-03-04",
-    "oo_home": "Long Island University",
+    "oo_fixture_id": "202603072EE74777",
+    "oo_game_id": "24939-13995-2026-03-07",
+    "oo_home": "Syracuse",
     "oo_home_abbr": "UNK",
-    "oo_away": "Chicago State",
+    "oo_away": "Pittsburgh",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305BA4292DE",
-    "oo_game_id": "15355-37761-2026-03-04",
-    "oo_home": "George Washington",
+    "oo_fixture_id": "2026030704D798D3",
+    "oo_game_id": "55120-35526-2026-03-07",
+    "oo_home": "Central Arkansas",
     "oo_home_abbr": "UNK",
-    "oo_away": "St. Bonaventure",
+    "oo_away": "Florida Gulf Coast",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305DEBDAA8B",
-    "oo_game_id": "19624-10261-2026-03-04",
-    "oo_home": "Rhode Island",
+    "oo_fixture_id": "202603071C15607E",
+    "oo_game_id": "17774-29071-2026-03-07",
+    "oo_home": "San Jose State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Duquesne",
+    "oo_away": "Wyoming",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305F50D4E74",
-    "oo_game_id": "17620-23851-2026-03-04",
-    "oo_home": "Davidson",
+    "oo_fixture_id": "202603073073191B",
+    "oo_game_id": "44572-26991-2026-03-07",
+    "oo_home": "Baylor",
     "oo_home_abbr": "UNK",
-    "oo_away": "Saint Joseph's",
+    "oo_away": "Utah",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "2026030514749075",
-    "oo_game_id": "16127-20181-2026-03-04",
-    "oo_home": "South Carolina Upstate",
+    "oo_fixture_id": "202603070334D0CE",
+    "oo_game_id": "26124-31042-2026-03-07",
+    "oo_home": "Ohio State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Gardner-Webb",
+    "oo_away": "Indiana",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603055A72C6E2",
-    "oo_game_id": "21441-11773-2026-03-04",
-    "oo_home": "West Georgia",
+    "oo_fixture_id": "202603074C812AA0",
+    "oo_game_id": "21452-24753-2026-03-07",
+    "oo_home": "Towson",
     "oo_home_abbr": "UNK",
-    "oo_away": "North Florida",
+    "oo_away": "Hampton",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603056EA907E2",
-    "oo_game_id": "31042-84507-2026-03-04",
-    "oo_home": "Penn State",
+    "oo_fixture_id": "2026030752B31071",
+    "oo_game_id": "12101-16231-2026-03-07",
+    "oo_home": "Samford",
     "oo_home_abbr": "UNK",
-    "oo_away": "Ohio State",
+    "oo_away": "Furman",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603051913C92D",
-    "oo_game_id": "20879-12193-2026-03-04",
-    "oo_home": "Oral Roberts",
+    "oo_fixture_id": "20260307A7054A6A",
+    "oo_game_id": "79577-41639-2026-03-07",
+    "oo_home": "Bradley",
     "oo_home_abbr": "UNK",
-    "oo_away": "Kansas City",
+    "oo_away": "Northern Iowa",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "2026030530CAB91A",
-    "oo_game_id": "25099-23019-2026-03-04",
-    "oo_home": "Saint Louis",
+    "oo_fixture_id": "20260307BA3A9C7E",
+    "oo_game_id": "27171-11875-2026-03-07",
+    "oo_home": "LSU",
     "oo_home_abbr": "UNK",
-    "oo_away": "Loyola Chicago",
+    "oo_away": "Texas A&M",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305583E003A",
-    "oo_game_id": "11285-33705-2026-03-04",
-    "oo_home": "DePaul",
+    "oo_fixture_id": "20260307E37CF98C",
+    "oo_game_id": "89084-99382-2026-03-07",
+    "oo_home": "Quinnipiac",
     "oo_home_abbr": "UNK",
-    "oo_away": "Villanova",
+    "oo_away": "Marist",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305956E43E9",
-    "oo_game_id": "29339-12197-2026-03-04",
-    "oo_home": "Wisconsin",
+    "oo_fixture_id": "2026030735DE902B",
+    "oo_game_id": "34537-29249-2026-03-07",
+    "oo_home": "Duke",
     "oo_home_abbr": "UNK",
-    "oo_away": "Maryland",
+    "oo_away": "North Carolina",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305D3A45A6D",
-    "oo_game_id": "18477-16994-2026-03-04",
-    "oo_home": "North Texas",
+    "oo_fixture_id": "202603078263427D",
+    "oo_game_id": "65647-88058-2026-03-07",
+    "oo_home": "Appalachian State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Rice",
+    "oo_away": "Southern Mississippi",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305D35D35EE",
-    "oo_game_id": "42467-72164-2026-03-04",
-    "oo_home": "Northwestern",
+    "oo_fixture_id": "20260308DD1DE80B",
+    "oo_game_id": "42893-24494-2026-03-07",
+    "oo_home": "Abilene Christian",
     "oo_home_abbr": "UNK",
-    "oo_away": "Purdue",
+    "oo_away": "UT Arlington",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260305529D1B59",
-    "oo_game_id": "44572-13323-2026-03-04",
-    "oo_home": "Houston",
+    "oo_fixture_id": "20260308E033C7CC",
+    "oo_game_id": "41411-30495-2026-03-07",
+    "oo_home": "Cal Poly",
     "oo_home_abbr": "UNK",
-    "oo_away": "Baylor",
+    "oo_away": "Cal State Bakersfield",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603058BA26140",
-    "oo_game_id": "94253-65233-2026-03-04",
-    "oo_home": "Notre Dame",
+    "oo_fixture_id": "20260308451F5871",
+    "oo_game_id": "39368-10632-2026-03-07",
+    "oo_home": "Austin Peay",
     "oo_home_abbr": "UNK",
-    "oo_away": "Stanford",
+    "oo_away": "Queens University",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603058FD4F132",
-    "oo_game_id": "42694-24939-2026-03-04",
-    "oo_home": "Pittsburgh",
+    "oo_fixture_id": "20260308F9CCD0E5",
+    "oo_game_id": "13099-16582-2026-03-07",
+    "oo_home": "Idaho State",
     "oo_home_abbr": "UNK",
-    "oo_away": "Florida State",
+    "oo_away": "Northern Arizona",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "2026030551B95FC0",
-    "oo_game_id": "12829-36909-2026-03-04",
-    "oo_home": "Lindenwood",
+    "oo_fixture_id": "202603082CAC704C",
+    "oo_game_id": "87393-14898-2026-03-07",
+    "oo_home": "Grand Canyon",
     "oo_home_abbr": "UNK",
-    "oo_away": "Little Rock",
+    "oo_away": "Fresno State",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603051CB22FEE",
-    "oo_game_id": "44282-21650-2026-03-04",
-    "oo_home": "New Mexico",
+    "oo_fixture_id": "20260308499C97B2",
+    "oo_game_id": "24716-39999-2026-03-07",
+    "oo_home": "Cal State Northridge",
     "oo_home_abbr": "UNK",
-    "oo_away": "Colorado State",
+    "oo_away": "Cal State Fullerton",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "202603050935BC46",
-    "oo_game_id": "11884-37498-2026-03-04",
-    "oo_home": "Washington",
+    "oo_fixture_id": "2026030852263C0B",
+    "oo_game_id": "17536-21618-2026-03-07",
+    "oo_home": "UC Irvine",
     "oo_home_abbr": "UNK",
-    "oo_away": "USC",
+    "oo_away": "UC Davis",
     "oo_away_abbr": "UNK"
   },
   {
-    "oo_fixture_id": "20260307B170C9F6",
-    "oo_game_id": "77848-37040-2026-03-06",
-    "oo_home": "Ohio",
+    "oo_fixture_id": "202603089934C0A9",
+    "oo_game_id": "34962-21229-2026-03-07",
+    "oo_home": "Georgetown",
     "oo_home_abbr": "UNK",
-    "oo_away": "Miami Ohio",
+    "oo_away": "Providence",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308BC5598CC",
+    "oo_game_id": "32023-17342-2026-03-07",
+    "oo_home": "North Dakota State",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Omaha",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030818D08654",
+    "oo_game_id": "35124-19948-2026-03-07",
+    "oo_home": "Alabama",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Auburn",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030846CFE177",
+    "oo_game_id": "42825-22202-2026-03-07",
+    "oo_home": "Texas",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Oklahoma",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308657C7A77",
+    "oo_game_id": "36223-13060-2026-03-07",
+    "oo_home": "Southern Utah",
+    "oo_home_abbr": "UNK",
+    "oo_away": "California Baptist",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308755D5B8B",
+    "oo_game_id": "38031-47811-2026-03-07",
+    "oo_home": "Siena",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Mount St. Mary's",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308D9D7988C",
+    "oo_game_id": "95561-33642-2026-03-07",
+    "oo_home": "Mercer",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Western Carolina",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308E54A032F",
+    "oo_game_id": "25028-39027-2026-03-07",
+    "oo_home": "William & Mary",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Elon",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030801E03649",
+    "oo_game_id": "35177-25203-2026-03-07",
+    "oo_home": "UC Santa Barbara",
+    "oo_home_abbr": "UNK",
+    "oo_away": "UC San Diego",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308054AA1E6",
+    "oo_game_id": "19792-11884-2026-03-07",
+    "oo_home": "USC",
+    "oo_home_abbr": "UNK",
+    "oo_away": "UCLA",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030830CF1B3D",
+    "oo_game_id": "37906-37210-2026-03-07",
+    "oo_home": "San Francisco",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Portland",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308A024266F",
+    "oo_game_id": "40600-41058-2026-03-07",
+    "oo_home": "Tennessee State",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Morehead State",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308B1E9D3CD",
+    "oo_game_id": "15079-42467-2026-03-07",
+    "oo_home": "Minnesota",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Northwestern",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308EE7CEF4F",
+    "oo_game_id": "32786-22296-2026-03-07",
+    "oo_home": "Coastal Carolina",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Georgia Southern",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308FAB5082B",
+    "oo_game_id": "41163-16997-2026-03-07",
+    "oo_home": "Utah Tech",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Utah Valley",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308565AC616",
+    "oo_game_id": "16361-29382-2026-03-07",
+    "oo_home": "Nevada",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Air Force",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030892062E6D",
+    "oo_game_id": "19240-18589-2026-03-07",
+    "oo_home": "Idaho",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Sacramento State",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030878561C67",
+    "oo_game_id": "15348-24650-2026-03-07",
+    "oo_home": "St. Thomas-Minnesota",
+    "oo_home_abbr": "UNK",
+    "oo_away": "North Dakota",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308EA9B144F",
+    "oo_game_id": "13676-42737-2026-03-07",
+    "oo_home": "BYU",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Texas Tech",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030829226094",
+    "oo_game_id": "18275-37718-2026-03-07",
+    "oo_home": "Colorado",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Arizona",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308E365564A",
+    "oo_game_id": "22117-37498-2026-03-07",
+    "oo_home": "Oregon",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Washington",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603085CD6C487",
+    "oo_game_id": "23912-27206-2026-03-07",
+    "oo_home": "Pacific",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Seattle U",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603080AA95C5A",
+    "oo_game_id": "24024-27178-2026-03-07",
+    "oo_home": "Hawaii",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Long Beach State",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603087F4F77E4",
+    "oo_game_id": "24738-24838-2026-03-08",
+    "oo_home": "Lehigh",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Colgate",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308D805E785",
+    "oo_game_id": "84507-92785-2026-03-08",
+    "oo_home": "Rutgers",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Penn State",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308DA538CF0",
+    "oo_game_id": "26802-27125-2026-03-08",
+    "oo_home": "UNC Wilmington",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Campbell",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603087CF991B3",
+    "oo_game_id": "31412-13780-2026-03-08",
+    "oo_home": "Navy",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Boston University",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030897E9C2D8",
+    "oo_game_id": "37426-27827-2026-03-08",
+    "oo_home": "South Florida",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Charlotte",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308D87A2951",
+    "oo_game_id": "25181-29470-2026-03-08",
+    "oo_home": "Tulane",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Memphis",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "2026030838772285",
+    "oo_game_id": "16994-27144-2026-03-08",
+    "oo_home": "Rice",
+    "oo_home_abbr": "UNK",
+    "oo_away": "UTSA",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603083D133730",
+    "oo_game_id": "21184-29339-2026-03-08",
+    "oo_home": "Maryland",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Illinois",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603086A48555B",
+    "oo_game_id": "14789-11438-2026-03-08",
+    "oo_home": "Tulsa",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Temple",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308B9FE696D",
+    "oo_game_id": "32999-12271-2026-03-08",
+    "oo_home": "UAB",
+    "oo_home_abbr": "UNK",
+    "oo_away": "East Carolina",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308BCDFDD06",
+    "oo_game_id": "12949-17243-2026-03-08",
+    "oo_home": "Green Bay",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Northern Kentucky",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308304EF3B7",
+    "oo_game_id": "15453-17526-2026-03-08",
+    "oo_home": "Michigan",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Michigan State",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "202603088429E3D1",
+    "oo_game_id": "34746-10896-2026-03-08",
+    "oo_home": "Nebraska",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Iowa",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260308FA47D808",
+    "oo_game_id": "20123-27329-2026-03-08",
+    "oo_home": "New Orleans",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Houston Christian",
+    "oo_away_abbr": "UNK"
+  },
+  {
+    "oo_fixture_id": "20260309B474D87E",
+    "oo_game_id": "75511-35658-2026-03-08",
+    "oo_home": "Nicholls",
+    "oo_home_abbr": "UNK",
+    "oo_away": "Northwestern State",
     "oo_away_abbr": "UNK"
   }
 ]

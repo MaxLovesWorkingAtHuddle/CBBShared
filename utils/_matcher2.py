@@ -151,6 +151,56 @@ def main(masterURL):
         console.print("[bold green]Match Confirmed & Saved![/bold green]\n")
 
     console.print("[bold green]Process Complete.[/bold green]")
+    # ... your existing loop above ...
+    
+    console.print("[bold green]Process Complete.[/bold green]")
+
+    # --- Generate LocalStorage Snippet for URL Games Only ---
+    
+    # url_ids already contains the HOS IDs from your masterURL
+    target_hos_ids = set(url_ids) 
+    
+    # Extract only the OO IDs where the HOS ID was in the masterURL
+    master_url_oo_ids = [
+        game.get("oo_game_id") 
+        for game in matched_data 
+        if game.get("hos_event_id") in target_hos_ids and game.get("oo_game_id")
+    ]
+    
+    # Remove any potential duplicates
+    master_url_oo_ids = list(set(master_url_oo_ids))
+    
+    # ... your existing loop above ...
+    
+    console.print("[bold green]Process Complete.[/bold green]")
+
+    # --- Generate and Save LocalStorage Snippet ---
+    import json
+    
+    # url_ids already contains the HOS IDs from your masterURL
+    target_hos_ids = set(url_ids) 
+    
+    # Extract only the OO IDs where the HOS ID was in the masterURL
+    master_url_oo_ids = [
+        game.get("oo_game_id") 
+        for game in matched_data
+        if game.get("hos_event_id") in target_hos_ids and game.get("oo_game_id")
+    ]
+    
+    # Remove any potential duplicates
+    master_url_oo_ids = list(set(master_url_oo_ids))
+    
+    # Create the JavaScript string
+    js_snippet = f"""localStorage.setItem(
+    'screen_selected_games_-1_basketball_ncaab', 
+    {json.dumps(json.dumps(master_url_oo_ids))}
+    );"""
+
+    # Save to a text file
+    output_filename = "console_snippet.txt"
+    with open(output_filename, "w") as file:
+        file.write(js_snippet.strip())
+    console.print(f"\n[bold cyan]✅ JavaScript snippet saved to {output_filename}[/bold cyan]")
 
 if __name__ == "__main__":
     main(masterURL= masterURL)

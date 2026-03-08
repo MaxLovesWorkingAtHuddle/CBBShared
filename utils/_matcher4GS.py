@@ -24,7 +24,7 @@ CSV_OUTPUT_FILE = os.path.join(UTILS_DIR, "output.csv")
 
 HOS_BASE_URL = "https://backoffice-huddle.netlify.app/operations/events/book-events?client=Huddle&sport=cf64a1fd-9982-48f7-a2e4-0897cc8c668f&competition=d1303850-9f46-4ef3-bc0d-11e0b8477d69"
 HOS_GQL_ENDPOINT = "https://gqls.phxp.huddle.tech/graphql"
-PAGES_TO_SCRAPE = 8  # Adjust as needed
+PAGES_TO_SCRAPE = 3  # Adjust as needed
 
 
 async def ensure_hos_auth():

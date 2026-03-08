@@ -1,6 +1,9 @@
 # For trading College Basketball
 Applies bias automatically.
 
+## OKAY, YOU HAVE TO MOVE ALL THE PARSED THINGS, THE MATCHED GAMES, THAT STUFF TO UTILS IM. 
+
+
 # Basic Instructions:
 * Download python, add python to your path. Add pip to your path. 
 * Download VSCode

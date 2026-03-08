@@ -50,6 +50,7 @@ async def update_market_bias(page, context, event_id, market_id, value, is_main_
 
     if response.ok:
         # print(f"YES! Success! Status: {response.status}")
+        # print(f"Sent to Market {market_id}: {payload}")
         print(await response.json())
         pass
     else:

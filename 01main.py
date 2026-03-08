@@ -70,7 +70,7 @@ OPTIC_ODDS_URLS = {
 }
 
 # HOS Screen URL (multiview)
-HOS_SCREEN_URL = "https://backoffice-huddle.netlify.app/operations/trading-ui/multiview?ids=24ad5790-24f0-4c09-a6ca-7b695aca6d3f&ids=1161445e-f6bd-4f50-9c53-30aee1f810c1&ids=7ee76b51-66cd-49e8-8d66-06c90643fcb7&ids=8b34b662-68b2-42e8-8a6d-5bfdb3a1007c&ids=543adfbd-5dc3-45c7-ad3e-f8e7387dfb8a&ids=89b27e62-3c76-401e-979d-23c94d481c9c&ids=d98eff00-d790-4bed-a79b-05a3d6cb3a3b&ids=f56843c1-f4c1-4c09-b909-4a762dc17ff4&ids=d867f9f7-c117-4f1e-a36c-f5a8bbf1586b&ids=4e07073e-706b-4ef0-bfae-2126bae6a699&ids=d779fe6f-6328-4318-90dc-0d96128cfd08&ids=3025a28a-6ef5-4637-86a7-bdf633aa7091&ids=636bc4a2-d137-4900-a0ec-df97fddbd505&ids=184234fd-5e3f-4fb5-a231-8888bed1b265&ids=42839d86-985c-4da7-9885-3537f7088d8a&client=Huddle"
+HOS_SCREEN_URL = "https://backoffice-huddle.netlify.app/operations/trading-ui/multiview?ids=43d187dd-93b0-409d-95dd-fbb743266af0&ids=a64befa4-d962-41d7-b79f-eeede5c5f2c4&ids=902203ff-fc60-4dca-b81a-e42ea4d6fbc1&ids=70d4673d-dd65-4ae2-8117-203a0748d274&ids=d2bed15a-9ab8-4145-beb8-13075f220478&ids=cd93aaaf-f1cf-4899-b852-b2c70066d8a6&ids=3937fd99-df6a-4981-9c29-654fa4721f65&ids=0d6b2cf0-203d-41aa-ab10-0393bd12f147&ids=f3a105c1-b16d-43a1-8bdf-f6da6e08763d&ids=71b12e4b-4b94-4707-8295-3e531f9fff78&ids=59a64a58-e26a-4c55-a158-fb9126ec9155&ids=3e7032e4-d326-4cd2-ad40-fd8085997527&ids=e8dbd69b-8b2b-4951-a61a-27132761b698&ids=b7708979-fc05-463b-92b6-089c0bc0229e&ids=0b763d77-96b7-4a33-8d38-e766161757ad&ids=26743fb8-9f39-4e93-afba-814ac08173e3&ids=f140ada3-b1af-4abe-906c-fcea07e67a92&ids=ad6a7f52-6f17-44d2-8e23-0ec9bdf63064&ids=42ef1781-c9cd-4c16-9eef-5e3a18a7498f&ids=17626a9b-72ce-45d8-9f0d-f84c0d83f08d&ids=805dc216-576f-4fbb-9618-39bf41327415&ids=6ef6a205-1e85-4f65-8f26-ed9493572440&ids=01d7ccec-8dfd-4e81-9249-98985c359553&ids=d8bcc280-f7db-41fa-b78c-fef26997aef3&ids=3f387ef4-0dc2-4d92-b243-d1e339c347b6&ids=ad458db4-4ca6-4378-8e03-9a9cdfdd044d&ids=d0daa32f-43ae-445c-a8f7-44ef79cb7692&ids=b40faec8-882e-46f1-b5e2-a58763337338&ids=45744f33-0401-4c6a-9ece-bedf6b2f2201&ids=3dda9596-f210-4e92-8996-e42c99451611&ids=de9eb13e-afe4-4013-9aba-9b05a1260f03&ids=415c0726-47d6-4c0b-ab67-8c2e84160e68&client=Huddle"
 current_datetime = datetime.now()
 HOS_GRAPHQL_ENDPOINT = "gqls.phxp.huddle.tech/graphql"
 
@@ -714,6 +714,7 @@ class MultiPageOddsMonitor:
                         # Avoid rounding to 2dp (0.01 == 1%) which can collapse real biases to 0.
                         try:
                             # if res["new_total_bias_decimal"] != res["existing_bias_decimal"] and res["status"] != "SUSPENDED":
+                            # print(f"🚀 Sending bias update for: {res['game']} ({res['market']}) -> {res['new_total_bias_decimal']}")
                             if max(-0.05, min(res["new_total_bias_decimal"], 0.05)) != max(-0.05, min(res["existing_bias_decimal"], 0.05)) and res["status"] != "SUSPENDED":
                                 await sendbias.update_market_bias(
                                 self.hos_page,
@@ -723,7 +724,7 @@ class MultiPageOddsMonitor:
                                 float(res["new_total_bias_decimal"]),
                                 ) 
                                 sent += 1
-                                await asyncio.sleep(0.1)
+                                await asyncio.sleep(0.2)
                         except Exception as e:
                                 print(f"⚠️ Failed to send bias for {res['game']}: {e}")
                                 # If it's a connection reset, headers might be stale
