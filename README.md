@@ -67,6 +67,19 @@ utils(IM)/calcbias2parital calculates the "bias" or slider values.
 # Todo
 Add some sanity check logic. Something like 3 mins have passed with no points. Make an alert or something. 
 
+
+# Change guide for different markets and stuff
+Change: 
+basketball&league=ncaab to basketball&league=ncaaw 
+Use find and replace or ctrl+shift+f for this. 
+Changing tournament or league is also needed for this:
+competition=92cbb3f3-847c-4675-a32c-d0d7272589ea was the NCAA Final Tournament Women in 2026
+so, change the sport so that you scrape correctly.
+Change them with find and replace. 
+
+For tournments where you it's like hard to match and run matcher4GS, just manually find the HOS Screen Url for your main. 
+
+
 <!-- ## PyInstaller in beta -->
 <!--
 [link](https://medium.com/@animeshsingh161/how-to-convert-a-python-playwright-script-into-an-executable-app-playwright-with-python-b61d8ff0ca64)
@@ -97,3 +110,6 @@ or
 set PLAYWRIGHT_BROWSERS_PATH=0 && playwright install chromium
 auto-py-to-exe
 -->
+
+
+
